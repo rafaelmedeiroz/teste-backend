@@ -45,3 +45,25 @@ questions - É a tabela que armazenar as perguntas que foram feitas aos alunos.
 alternatives - É a tabela que armazenar as alternativas para as perguntas que foram feitas aos alunos.
 
 answers - É a tabela que armazenar as respostas de cada aluno para cada pergunta.
+
+
+##Instruções para rodar a solucão
+
+Requisitos: GRAILS 3.3.2 SDK, JDK 1.8, Mysql
+
+Instalação do Grails: http://docs.grails.org/3.3.2/guide/single.html#gettingStarted
+
+Instalação do JDK e Mysql padrão
+
+Criar um banco com o nome "desafio".
+Popular o banco com o arquivo desafio.sql
+
+Criar usuario "desafio" com senha "123456" e dar permissão de leitura ao banco "desafio".
+
+após instalar o sdk do grails você poderá rodar a aplicação pelo cmd apenas navegando 
+até a pasta do repositório clonado usando o comando cd do windows e executando 
+a aplicação como mostra a documentação cujo o link está acima.
+
+
+
+
