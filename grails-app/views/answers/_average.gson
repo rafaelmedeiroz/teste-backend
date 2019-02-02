@@ -1,0 +1,7 @@
+import teste.backend.RegionalAverage
+
+model {
+    RegionalAverage average
+}
+
+json g.render(average)

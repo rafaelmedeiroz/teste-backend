@@ -1,0 +1,11 @@
+import teste.backend.RegionalAverage
+
+model {
+    Iterable<RegionalAverage> regionalAverageList
+    Double national
+}
+
+json {
+    regionals tmpl.render(regionalAverageList ?: [])
+    national national
+}
